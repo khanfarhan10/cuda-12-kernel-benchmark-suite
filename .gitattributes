@@ -1,0 +1,24 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Shell scripts must stay LF
+*.sh text eol=lf
+
+# CUDA/C++ source files - LF
+*.cu text eol=lf
+*.cuh text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+
+# Python
+*.py text eol=lf
+
+# Markdown and docs
+*.md text eol=lf
+
+# Config files
+*.toml text eol=lf
+*.txt text eol=lf
+CMakeLists.txt text eol=lf
